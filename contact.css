@@ -1,0 +1,67 @@
+body {
+    background-image: url(contactus.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;   
+    min-height: 100vh;
+    background-position: center; 
+}
+
+.logo {
+    margin-left: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 20%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: #E4C590;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+@media all and (max-width:800px) {
+    body {
+        background-image: url(contactus.jpg);
+        background-size: cover;  
+        background-repeat: no-repeat;   
+        min-height: 100vh;
+        background-position:right;
+    }
+    
+    .logo {
+        margin-left: 40%;
+        margin-top: 20%;
+        width: 25%;
+    }
+
+    .container {
+        margin-left: 10%;
+        margin-top: 18%;
+    }
+    
+    h1 {
+font-size: 25px;
+    }
+    
+    p {
+        color: #E4C590;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+}
+
+
+

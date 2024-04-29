@@ -1,0 +1,5 @@
+gsap.from(".logo", {y: 20, opacity: 0, duration: 2})
+gsap.from(".text", {x: -30, duration: 1, opacity: 0, delay: 1})
+gsap.from(".price", {x: -30, duration: 1, opacity: 0, delay: 1})
+gsap.from("h3", {x: -30, duration: 1, opacity: 0, delay: 1})
+gsap.from(".price2", {x: -30, duration: 1, opacity: 0, delay: 1})

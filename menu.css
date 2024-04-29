@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://cdn.glitch.global/3b5b4e95-040b-4c46-b30c-4d95b3271ee3/back.jpg?v=1693332481865);
+    background-size: cover;  
+    background-repeat: no-repeat;   
+    min-height: 100vh;
+    background-position: center; 
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    letter-spacing: 3px;
+
+}
+
+.text {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    letter-spacing: 3px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.price {
+    color: #E4C590;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 60px;
+    margin-top: 65px;
+}
+
+.container {
+    display: flex;
+}
+
+.price2 {
+    color: #E4C590;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 60px;
+    margin-top: 85px;
+}
+
+.menu2 {
+    padding: 40px;
+    margin-left: 100px;
+}
+
+@media all and (max-width:800px) {
+
+.logo {
+    width: 30%;
+}
+
+.text {
+    font-size: 15px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.price {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+
+.price2 {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.menu2 {
+    padding: 10px;
+    margin-left: 5px;
+}
+
+body{
+margin: 5px;
+}
+}
+
+@media all and (max-width:500px) {
+
+    .price {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 55px;
+    }
+    body{
+        margin: 2px;
+        }
+}
